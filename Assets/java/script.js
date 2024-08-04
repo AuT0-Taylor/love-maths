@@ -13,8 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-function runGame(){
 
+/**
+ * the main game "loop" designed to call a random number between 1-25
+ */
+function runGame(){
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 
@@ -34,7 +39,7 @@ function incrementWrongScore(){
 }
 
 
-function displayAdditionQuestion(){
+function displayAdditionQuestion(operand1, operand2){
 }
 
 
